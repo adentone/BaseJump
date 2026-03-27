@@ -22,3 +22,6 @@ BaseJump.wiki
 
 # Ignore application configuration
 /config/application.yml
+
+# Ignore Railway CLI config
+.railwayrc
