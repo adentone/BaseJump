@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: BaseJump_production
-  username: BaseJump
-  password: <%= ENV['BASEJUMP_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
